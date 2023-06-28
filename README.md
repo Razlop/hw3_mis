@@ -1,67 +1,36 @@
-# hw3
+# Flight Data Analysis
 
-Information on using this cookiecutter
+## Overview
+This project aims to analyze flight data from Kayak, focusing on the differences between Main Cabin and Comfort Plus flight prices. Through the process of data gathering, cleaning, and analysis, we examine various trends, correlations, and other interesting features of the dataset.
 
-Development workflows
-=======================
+## Requirements
+You'll need to install the necessary Python libraries. This can be done by running:
 
-Create new project
-----------------------
-
-You've already done this if you are reading this file. You ran:
-
-```bash
-cookiecutter gh:razlop/cookiecutter-datascience-simple
 ```
-
-Put project under version control
----------------------------------
-
-Let's get version control set up. You don't absolutely have to do this, but you should. For the local repository, do;
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
+pip install -r requirements.txt
 ```
-
-For the remote repository, make a github repository named hw3, then do;
-
-```bash
-git remote add origin git@github.com:razlop/hw3.git
-git branch -M main
-git push -u origin main
+## How to run
+First, we gather up-to-date flight information from Kayak by running the scraping script:
 ```
+python scrape.py
+```
+Then, open the flight_data_analysis.ipynb Jupyter notebook and run all cells. The notebook contains the code for data cleaning, formatting, and analysis, along with explanations and visualizations.
 
-Great. Using version control is good.
+## Features
+The analysis covers:
 
+* A visual representation of the distribution of Main Cabin and Comfort Plus flight prices.
+* A statistical significance test comparing Main Cabin and Comfort Plus flight prices.
+* An examination of the correlation between flight duration and flight prices.
+* Comparison of prices for nonstop flights and flights with stops.
+* A calculation of the confidence intervals for the mean prices of Main Cabin and Comfort Plus.
 
-Folder structure
------------------
+## Conclusion and Future Approaches
 
-Here's the folder structure that gets created by `cookiecutter-datascience-simple`:
+To further enhance this analysis, the accumulation of historical data is necessary. With historical data, we can observe and predict trends over time. Some ways to gather historical data could be through defining a CRON job that runs scrape.py daily, or exploring available APIs that can supply this data.
 
-	├── hw3	<- Your notebooks and scripts will live in the main project folder
-		│   .gitignore					<- Common file types for git to ignore
-		│   README.md					<- The top-level README for developers (you) using this project
-		│   template-nb.ipynb			<- A Jupyter notebook template
-		│
-		├───data						<- Final and intermediate data
-		│   └───raw						<- The original, immutable data dump
-		│
-		├───docs
-		│       notes.md				<- Simple markdown template for project notes
-		│
-		└───output
-				readme.md				<- Guidance for using this folder
-
-
-Documentation
---------------
-
-In this very simple project structure template, we've just included a markdown file with some typical
-section headings to use for project notes. Expand as desired. Later in the semester we will learn how to
-use Sphinx with restructuredText to write and generate documentation.
-
-
-
+## Notes
+The project uses Kayak for data scraping, as Delta's website has advanced anti-scraping measures.
+The accuracy of the data obtained from Kayak might need verification.
+In the future, it might be worth exploring APIs for data gathering.
+An idea for a future project could be to create an API for this scraped data, potentially using a platform like RapidAPI.

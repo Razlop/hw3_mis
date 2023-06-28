@@ -1,0 +1,52 @@
+Departure - Arrival Time,Airline Name,Number of stops,Flight Duration,Main Cabin Price,Comfort Plus Price
+6:07 am–7:55 am,Delta,nonstop,4h 48m,$339,$439
+6:07 am–7:55 am,Delta,nonstop,4h 48m,$339,$439
+12:55 pm–2:42 pm,Delta,nonstop,4h 47m,$339,$439
+10:50 pm–12:38 am+1,Delta,nonstop,4h 48m,$339,$439
+8:59 am–10:50 am,Delta,nonstop,4h 51m,$339,$439
+7:59 pm–9:50 pm,Delta,nonstop,4h 51m,$339,$439
+4:10 pm–5:56 pm,Delta,nonstop,4h 46m,$379,$479
+7:05 am–10:49 am,Delta,1 stop,6h 44m,$653,$803
+9:25 am–1:30 pm,Delta,1 stop,7h 05m,$648,$858
+4:35 pm–8:40 pm,Delta,1 stop,7h 05m,$653,$763
+7:45 pm–12:10 am+1,Delta,1 stop,7h 25m,$648,$848
+12:39 pm–4:53 pm,Delta,1 stop,7h 14m,$653,$793
+12:45 pm–5:23 pm,Delta,1 stop,7h 38m,$648,$888
+7:05 am–11:41 am,Delta,1 stop,7h 36m,$648,$888
+8:58 am–1:45 pm,Delta,1 stop,7h 47m,$653,$773
+8:25 am–1:30 pm,Delta,1 stop,8h 05m,$648,$858
+4:09 pm–9:25 pm,Delta,1 stop,8h 16m,$648,$898
+10:42 am–3:52 pm,Delta,1 stop,8h 10m,$648,$888
+12:45 pm–6:16 pm,Delta,1 stop,8h 31m,$648,$848
+7:05 am–12:35 pm,Delta,1 stop,8h 30m,$648,$848
+5:20 am–9:44 am,Delta,1 stop,7h 24m,$648,$848
+10:01 am–4:56 pm,Delta,1 stop,9h 55m,$608,$848
+8:25 am–12:35 pm,Delta,1 stop,7h 10m,$698,$908
+6:05 pm–12:10 am+1,Delta,1 stop,9h 05m,$648,$858
+8:58 am–2:53 pm,Delta,1 stop,8h 55m,$653,$773
+4:09 pm–10:29 pm,Delta,1 stop,9h 20m,$648,$858
+7:51 pm–11:49 pm,Delta,1 stop,6h 58m,$733,$853
+7:05 am–1:30 pm,Delta,1 stop,9h 25m,$648,$848
+9:25 am–3:52 pm,Delta,1 stop,9h 27m,$648,$898
+10:42 am–5:23 pm,Delta,1 stop,9h 41m,$648,$888
+6:30 am–12:10 pm,Delta,1 stop,8h 40m,$683,
+7:05 am–1:45 pm,Delta,1 stop,9h 40m,$653,$773
+2:30 pm–9:25 pm,Delta,1 stop,9h 55m,$648,$888
+8:25 am–3:52 pm,Delta,1 stop,10h 27m,$648,$898
+5:20 am–11:41 am,Delta,1 stop,9h 21m,$648,$888
+10:42 am–6:16 pm,Delta,1 stop,10h 34m,$648,$848
+6:30 am–1:57 pm,Delta,1 stop,10h 27m,$663,
+8:20 pm–11:55 pm,Delta,1 stop,6h 35m,$798,$948
+7:01 am–2:45 pm,Delta,1 stop,10h 44m,$658,$948
+5:20 am–12:35 pm,Delta,1 stop,10h 15m,$648,$848
+12:42 pm–8:03 pm,Delta,1 stop,10h 21m,$683,$873
+5:50 pm–10:12 pm,Delta,1 stop,7h 22m,$798,$948
+12:45 pm–8:05 pm,Delta,1 stop,10h 20m,$698,$938
+5:50 pm–11:55 pm,Delta,1 stop,9h 05m,$798,$948
+8:25 am–12:10 pm,Delta,1 stop,6h 45m,$888,"$1,008"
+3:23 pm–10:40 pm,Delta,1 stop,10h 17m,$778,
+12:20 pm–4:20 pm,Delta,1 stop,7h 00m,$888,"$1,038"
+8:30 am–1:57 pm,Delta,1 stop,8h 27m,$851,
+12:20 pm–6:22 pm,Delta,1 stop,9h 02m,$838,$988
+2:30 pm–8:05 pm,Delta,1 stop,8h 35m,$933,"$1,173"
+4:40 pm–10:25 pm,Delta,1 stop,8h 45m,"$1,093",
